@@ -1,0 +1,52 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    text-align: center;
+}
+.grid-item{
+    background-color: white;
+    border: 1px;
+    padding: 100px;
+    text-align: center;
+}
+p{
+    font-family: 'Lobster';
+    font-size: 500%;
+    font-style:oblique;
+    color: black;
+    margin-bottom: 10px;
+}
+.button1{
+    display: inline-block;
+    border: 0px;
+    border-radius: 3px;
+    background-color: blueviolet;
+    border: 1px blueviolet;
+    box-shadow: -2px 4px rgb(85, 15, 151);
+}
+.button1{
+    width: 250px;
+    height: 30px;
+    color :white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.button1:active{
+    box-shadow: inset -2px 4px rgb(85, 15, 151);
+    font-size: 0.9rem;
+}
+input{
+    width: 96%;
+    height: 6%;
+    white-space: 25%;
+    margin-bottom: 6%;
+    margin-top: auto;
+    border-color: gainsboro;
+    border-radius: 3px;
+}
+p2{
+    font-family: Arial;
+    color: black;
+    font-size: 65%;
+}
