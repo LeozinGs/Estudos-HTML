@@ -1,1 +1,3 @@
-# Idea-de-login-em-html-para-petshop
+# Estudos em HTML
+* Tela de login
+* Pokédex
