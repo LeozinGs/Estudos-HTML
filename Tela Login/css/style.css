@@ -26,7 +26,7 @@ p{
     box-shadow: -2px 4px rgb(85, 15, 151);
 }
 .button1{
-    width: 250px;
+    width: 67%;
     height: 30px;
     color :white;
     font-weight: bold;
@@ -37,10 +37,10 @@ p{
     font-size: 0.9rem;
 }
 input{
-    width: 96%;
+    width: 67%;
     height: 6%;
     white-space: 25%;
-    margin-bottom: 6%;
+    margin-bottom: 3%;
     margin-top: auto;
     border-color: gainsboro;
     border-radius: 3px;
