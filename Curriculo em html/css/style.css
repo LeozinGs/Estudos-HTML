@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(to top, rgb(47, 47, 94), rgb(105, 105, 241));
+    border-top-right-radius: 35px;
+    width: 45vh;
+    height: 125.5vh;
+
+    padding: 20px;
+    clip-path: circle(800px);
+    position: absolute;
+}
+
+.container.open{
+    clip-path: circle(1500px at 1% 1%);
+    -webkit-clip-path: circle(1500px at 1% 1%);
+}
+
+.container img{
+    width: 8%;
+    filter: invert(100%);
+    visibility: hidden;
+}
+
+.container img:hover{
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container div{
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+    color: rgb(255, 255, 255);
+
+    padding: 10px;
+}
+.container div h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.container div h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container div ul{
+    list-style-type: none;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 90vh;
+    margin-left: 400px;
+}
+
+.page div{
+    padding: 10%;
+}
+
+.page div h1{
+    color: rgb(48, 47, 47);
+}
+
+.page div h2{
+    margin-bottom: 5%;
+    color: rgb(48, 47, 47);
+}
+
+.page div p{
+    color: rgb(48, 47, 47);
+}
+
+.button{
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 15px;
+    visibility: hidden;
+}
+
+.button .text{
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.button .hamburger{
+    width: 25px;
+    height: 25px;
+}
+
+.button .hamburger img{
+    width: 100%;
+}
+

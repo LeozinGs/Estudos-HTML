@@ -1,0 +1,34 @@
+@media only screen and (max-width: 700px){
+
+    .container{
+        height: 153vh;
+        width: 100%;
+        z-index: 1;
+        clip-path: circle(15px at 4.6% 2.8%);
+        -webkit-clip-path: circle(15px at 4.6% 2.8%);
+        transition: all 1s ease-out;
+    }
+
+    .container.open{
+        clip-path: circle(1500px at 1% 1%);
+        -webkit-clip-path: circle(1500px at 1% 1%);
+    }
+
+    .container .hamburger{
+        visibility: visible;
+        width: 4%;
+    }
+
+    .page{
+        margin-left: 30px;
+        left: 5vh;
+        top: 5vh;
+    }
+
+    .button{
+        visibility: visible;
+        left: 6vh;
+        top: 3vh;
+    }
+
+}
